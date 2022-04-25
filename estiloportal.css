@@ -1,0 +1,38 @@
+body{
+    border-style: solid;
+    margin: 100px 400px;
+    background: url(fondo.jpg);
+    background-size: 100%;
+}
+h1{
+    border-style: groove;
+    border-color: black;
+    /*background: url(foother2.jpg);
+    background-size: 100%;*/
+    background-color: rgb(70, 144, 228);
+    margin: 0%;
+    color: rgb(78, 78, 78);
+    text-align: center;
+}
+main{
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(99, 97, 97);
+    margin: 0%;
+    text-align: center;
+}
+footer{
+    border-style: groove;
+    border-color: black;
+    /*background: url(foother2.jpg);
+    background-size: 100%;*/
+    background-color: rgb(70, 144, 228);
+    margin: 0%;
+    color: rgb(78, 78, 78);
+    text-align: center;
+}
+img{
+    border-style: groove;
+    border-color: black;
+    margin:5px 150px;
+}
