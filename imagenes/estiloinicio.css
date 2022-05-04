@@ -1,5 +1,10 @@
 body{
-    
+    /*background: rgb(92, 91, 91);*/
+    background: url(fondoinicio.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     color: white;
 }
 h1{
@@ -10,47 +15,53 @@ h1{
     border:2px solid #fff;
     border-radius: 10px;
 }
-div{
+/*div{
     color:rgb(255, 255, 255);
     margin: 10px 100px;
-    background: url(4.jpg);
+    background: url(fondodiv.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border: 2px solid #fff;
     border-radius: 10px;
-}
+}*/
 h3{
     color:rgb(255, 255, 255);
     font-size: 26px;
     text-align: center;
 }
 nav{
+    grid-column: auto auto auto;
     background: url(fondocabeza3.jpg);
-    background-size: 50%;
+    background-size: 100%;
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    border: 2px solid #fff;
-    border-radius: 10px;
+    /*border: 2px solid #fff;
+    border-radius: 10px;*/
 }
 #parrafodelcristo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
 }
 #Cristo{
     display:  flex;
+    
 }
 h2{
     margin: 10px 300px 10px 300px;
     padding: 1px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 #salarparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -59,7 +70,9 @@ h2{
     display: flex;
 }
 #madidiparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -68,7 +81,9 @@ h2{
     display: flex;
 }
 #lagoparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -77,7 +92,9 @@ h2{
     display: flex;
 }
 #sajamaparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -86,7 +103,9 @@ h2{
     display: flex;
 }
 #oruroparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -95,7 +114,9 @@ h2{
     display: flex;
 }
 #laparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -104,7 +125,9 @@ h2{
     display: flex;
 }
 #minaparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -113,7 +136,9 @@ h2{
     display: flex;
 }
 #plazaparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -122,7 +147,9 @@ h2{
     display: flex;
 }
 #toroparrafo{
-    background-color: tomato;
+    /*background: url(1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
     margin: 1%;
     padding: 30px;
     width: 30%;
@@ -131,19 +158,19 @@ h2{
     display: flex;
 }
 p{
-    border: 2px solid #fff;
-    color:rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
     margin: 2%;
 }
 a{
-    background-color: salmon;
+    /*background-color: salmon;
     display: inline-block;
     text-decoration: none;
     padding: 20px 40px;
-    color: white;
+    color: white;*/
 }
 a:hover{
-    background-color: rgba(7, 180, 22, 0.527);
+    background-color: rgb(135, 217, 250);
 }
 @media(max-width:600px){
     nav{
@@ -151,8 +178,14 @@ a:hover{
         flex-direction: column;
         
     }
+    /*body{
+        flex-direction: column;
+    }*/
     
 }
 footer{
     margin-left: 100px;
+}
+.navegador{
+    grid-column: auto;
 }
